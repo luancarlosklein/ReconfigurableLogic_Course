@@ -1,0 +1,29 @@
+-- +-----------------------------+
+-- |        SELECTOR             |
+-- |Guilherme Gomes e Luan Klein |
+-- +-----------------------------+
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+use IEEE.Numeric_Std.all;
+
+ENTITY selector IS
+	PORT (
+			value1   : IN  STD_LOGIC_VECTOR (7 DOWNTO 0);
+			value2   : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+			choose   : IN BIT;
+			output   : OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+);
+END selector;
+
+ARCHITECTURE sel OF selector IS
+	BEGIN SELECTION : PROCESS (choose)
+		BEGIN
+			IF (choose = '1') THEN
+				output <= value1;
+			ELSE:
+				output <= value2;
+		END PROCESS;
+END sel;

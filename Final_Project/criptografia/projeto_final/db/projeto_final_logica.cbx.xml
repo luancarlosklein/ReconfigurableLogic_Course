@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="projeto_final_logica">
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto_final_forca_bruta|lpm_counter2:inst14|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_g3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto_final_forca_bruta|lpm_counter3:inst23|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_u2i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto_final_forca_bruta|sync_ram:inst24|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_d941.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|projeto_final_forca_bruta|sync_ram:inst5|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_d941.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
